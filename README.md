@@ -12,3 +12,9 @@ Launch Django server. (Go to disquaire/disquaire_project) :
 
 If Django notifies us to migrate :
  - ./manage.py migrate
+
+Show migrations :
+ - ./manage.py showmigrations
+
+Lorsque les modèles sont modifiés => migration automatique :
+ - ./manage.py makemigrations
