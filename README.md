@@ -1,14 +1,14 @@
 # disquaire
 
-Projet développé en suivant le cours d' OpenClassRoom sur Django
+Project developed by following the OpenClassRoom course on Django
 
-Lancer un environnement de développement :
- - $ cd disquaire
- - $ virtualenv env -p python3
- - $ . env/bin/activate
+Launch a development environment :
+ - cd disquaire
+ - virtualenv env -p python3
+ - . env/bin/activate
 
-Lancer le serveur Django. (Se placer dans disquaire/disquaire_project) :
+Launch Django server. (Go to disquaire/disquaire_project) :
  - ./manage.py runserver
 
-Si Django nous informe de faire une migration :
+If Django notifies us to migrate :
  - ./manage.py migrate
